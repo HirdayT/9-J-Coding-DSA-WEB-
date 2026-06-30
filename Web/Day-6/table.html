@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table assignment
+    </title>
+</head>
+<body>
+    <table border = '1' rules = 'all' padding = '10px'>
+        <!-- ROW-1 -->
+        <tr align = 'center'>
+            <td>A</td>
+            <td rowspan = '2'>
+                <ul type = 'disc'>
+                    <li>item - 1 </li>
+                    <li>item - 2</li>
+                </ul>
+            </td>
+        </tr>
+        <!-- Row-2 -->
+        <tr align = "center">
+             <td>B</td>
+        </tr>
+        <tr align="center">
+            <td colspan='2'">C</td>
+        </tr>
+        <!-- Row - 3 -->
+         <tr align = "center">
+            <td>
+                <ul type = 'square'>
+                        <li>item - 3 </li>
+                        <li>item - 4 </li>
+                </ul>
+            </td>
+            <td>
+                <table border = '2' padding= '20px' rules = 'all'> 
+                       <th colspan="2" align = "center">
+                            Table
+                       </th> 
+                       <tr align = "center">
+                         <td rowspan="2">D</td>
+                            <td>E</td>
+                        </tr>
+                            <tr align = "center">
+                                <td>F</td>
+                            </tr>
+                </table>
+            </td>
+        </table>
+    </body>
+</html>
