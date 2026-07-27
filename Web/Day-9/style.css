@@ -1,0 +1,10 @@
+body{
+    background-color: lightblue;
+    margin:0 ;
+}
+
+div{
+   width: 20%; 
+   border: 15px solid green;
+   margin: 0;
+}

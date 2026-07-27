@@ -1,0 +1,36 @@
+/* p {
+    color: blue;
+}
+
+h1{
+    color: red;
+    text-align: center;
+}
+
+
+#first {
+    text-align: end;
+}
+
+#second {
+    text-align: start;
+    color: green;
+}
+
+.mouse{
+    font-size: 48px;
+    color:aqua;
+} */
+
+*{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+
+
+p, h1, h2 {
+    color: green;
+    font-family:sans-serif;
+}
