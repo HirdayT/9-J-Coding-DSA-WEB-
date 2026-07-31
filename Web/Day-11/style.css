@@ -35,7 +35,7 @@ body {
 .item {
   width: 150px;
   height: 150px;
-  background-color: #fb7185;
+  background-color: #f06a81;
   padding: 1em;
   font-weight: 700;
   color: var(--clr-light);
@@ -47,10 +47,24 @@ body {
 /* END OF BASE STYLES */
 .container {
   display: flex;
-  /* justify-content: space-around;(for utilising main axis) */
-  /* align-items:; (for using cross axis) */
+  /* justify-content: space-around;(for utilising main axis) */ 
+   /* align-items:;/* (for using cross axis) */
   /* flex-direction:row;(it inverts the main axis and cross axis) */
-   justify-content: end;
-   align-items: end;
+   /* justify-content: end;
+   align-items: end; */
+    /* flex-wrap:wrap ;
+    align-content:end; /* to control the distance among wrapped element */
+    /* gap: 10px; to control the distance among wrapped element */ 
 }
- 
+
+.item-3 {
+    /* flex-grow: 1; to control the growth of the element */
+     /* flex-shrink: 10 ;to control the shrink of the element */
+    /* flex-basis: 300px; to control the initial size of the element */
+    /* align-self: center; to control the position of the element in cross axis */
+    order:-1 ;
+    }
+
+    .item-2{
+        order:-1 ;
+    }
