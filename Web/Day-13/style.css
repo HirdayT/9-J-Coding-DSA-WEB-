@@ -1,0 +1,74 @@
+:root {
+  --clr-dark: #0f172a;
+  --clr-light: #f1f5f9;
+  --clr-accent: #e11d48;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 5em 0 0 0;
+  padding: 0;
+  line-height: 1.6;
+  word-spacing: 1.4px;
+  font-family: 'Roboto', sans-serif;
+  color: var(--clr-dark);
+  background-color: var(--clr-light);
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  border: 10px solid var(--clr-dark);
+}
+
+.item {
+  padding: 0.5em;
+  background-color: #fb7185;
+  font-weight: 700;
+  color: var(--clr-light);
+  border: 10px solid var(--clr-accent);
+}
+
+.container{
+    display: grid;
+    /* grid-template-columns: repeat(no. of repetition, dimension of each column) ; */
+    /* grid-template-rows: 100px ;
+    grid-template-columns:100px minmax(80px, 200px) 100px  ; default value is auto */
+    /* to Adjust extra element accordingly / providin ga default dimension to extra element */
+   /* grid-auto-rows:80px ; */
+  /* grid-auto-flow: column ; default value is row */
+  /* grid-auto-columns: 100px ; default value is auto */
+
+  /* grid-template-rows: 100px 300px 100px ;
+  grid-template-columns: 3fr 1fr  ;
+  grid-template-areas:
+  'header header '
+  'main aside'
+  'footer footer'
+  ;
+ auto-fit-last */
+
+ grid-template-rows: repeat(4,100px) ;
+  grid-template-columns: repeat(4,1fr);
+  /* grid-auto-rows: 100px ;
+   justify-items: top ;
+  align-items: top ; */
+
+  /* gap: rows columns  ; */
+  gap: 10px 20px ;
+
+}
+
+/* .item-1{
+  justify-self:flex-end;
+  align-self:flex-end;
+} */
+
+  
+
+
