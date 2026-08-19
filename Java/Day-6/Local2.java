@@ -4,10 +4,10 @@ class Local2{
 
 
 	 { int a = 20 ;
-	   System.out.println(c) ;
+	   System.out.println(c) ;//Compile time Sucess
          }
  
-
+	System.out.println(a);//Compile time error
 
 
 	}
