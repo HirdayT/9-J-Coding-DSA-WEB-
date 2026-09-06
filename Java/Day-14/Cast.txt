@@ -1,0 +1,11 @@
+class Cast{
+ public static void main(String[] args)
+ {
+    int sal = 5000 ;
+    System.out.println(sal); 
+
+ }
+
+
+
+ }
