@@ -1,0 +1,40 @@
+public stat
+
+
+
+
+
+ic void main(String[] args)
+{
+  int n1 ,n2 , small ;
+   if(n1 < n2) small = n1 
+   else small = n2 ;
+  int remainder 1 , remainder2 ;
+ for(int i = small ; i >= 1 ;i-- ){
+    remainder1 = n1 %  i;
+    remainder2 = n2 %  i;
+   
+  if(remainder1  == 0){
+       if(remainder2 == 0)
+             { System.out.print(i);
+              break ;
+              }
+   }
+  remainder1++;
+  remainder2++;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+   int small = Math.min(n1,n2); 
+}
